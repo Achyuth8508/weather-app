@@ -83,7 +83,7 @@ A simple web-based Weather App built with HTML, CSS, and JavaScript that fetches
 - Uses the [OpenWeatherMap API](https://openweathermap.org/) for weather data.
 
 ## License
-This project is licensed under the MIT License. Feel free to use and modify it for personal or educational purposes.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
 
 ## Contact
 For questions or suggestions, please open an issue on the repository or contact the developer.
