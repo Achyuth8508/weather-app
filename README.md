@@ -10,10 +10,10 @@ A simple web-based Weather App built with HTML, CSS, and JavaScript that fetches
 - Uses the OpenWeatherMap API for real-time weather data.
 
 ## Prerequisites
-- A modern web browser (e.g., Chrome, Firefox, Edge).
+- A modern web browser.
 - An API key from [OpenWeatherMap](https://openweathermap.org/). The free tier is sufficient.
 - A text editor (e.g., Visual Studio Code) for editing files.
-- Optional: A local server (e.g., VS Code Live Server extension) for testing.
+  
 
 ## Installation
 1. **Clone or Download the Project**
@@ -60,17 +60,7 @@ A simple web-based Weather App built with HTML, CSS, and JavaScript that fetches
   - Humidity: 65%
   - Wind Speed: 3.5 m/s
 
-## Customization
-- **Change Units**: To display temperatures in Fahrenheit, modify the `apiUrl` in `script.js` by changing `units=metric` to `units=imperial`.
-- **Enhancements**: Add features like:
-  - Weather icons (use OpenWeatherMap's icon URLs).
-  - 5-day forecast (requires a different API endpoint).
-  - Geolocation to fetch weather based on the user's location.
 
-## Troubleshooting
-- **Invalid API Key**: Ensure your OpenWeatherMap API key is correct and active. It may take a few minutes for a new key to activate.
-- **City Not Found**: Verify the city name is spelled correctly (e.g., "Paris" instead of "Pariss").
-- **CORS Issues**: If testing locally, use a local server to avoid CORS errors. Direct file access (`file://`) may restrict API calls.
 
 ## Technologies Used
 - **HTML**: Structure of the web page.
@@ -79,13 +69,10 @@ A simple web-based Weather App built with HTML, CSS, and JavaScript that fetches
 - **OpenWeatherMap API**: Provides real-time weather data.
 
 ## Acknowledgments
-- Inspired by weather app tutorials from [DEV Community](https://dev.to) and [GeeksforGeeks](https://www.geeksforgeeks.org).
 - Uses the [OpenWeatherMap API](https://openweathermap.org/) for weather data.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
 
 ## Contact
-For questions or suggestions, please open an issue on the repository or contact the developer.
 
-*Last updated: May 23, 2025*
